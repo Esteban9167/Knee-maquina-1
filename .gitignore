@@ -1,0 +1,57 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Secretos y rutas locales
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Modelos y checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+runs/
+lightning_logs/
+wandb/
+outputs/
+checkpoints/
+
+# Datos locales (el dataset vive en disco externo)
+*.dcm
+*.dicom
+data/
+datasets/
+cache/
+
+# macOS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Herramientas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.python-version
