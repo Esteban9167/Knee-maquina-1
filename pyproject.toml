@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rsna-knee"
+version = "0.1.0"
+description = "Pipeline 2.5D + DenseNet121 para RSNA Knee (12 labels)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas",
+    "python-dotenv",
+    "numpy",
+    "matplotlib",
+    "pydicom",
+    "torch",
+    "torchvision",
+    "ipykernel",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

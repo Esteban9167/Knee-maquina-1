@@ -1,0 +1,8 @@
+pandas
+python-dotenv
+numpy
+matplotlib
+pydicom
+torch
+torchvision
+ipykernel
