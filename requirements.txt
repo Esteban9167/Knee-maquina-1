@@ -6,3 +6,4 @@ pydicom
 torch
 torchvision
 ipykernel
+sklearn

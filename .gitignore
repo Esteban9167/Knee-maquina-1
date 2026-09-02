@@ -41,6 +41,7 @@ checkpoints/
 data/
 datasets/
 cache/
+feature_cache_densenet121/
 
 # macOS / IDE
 .DS_Store
