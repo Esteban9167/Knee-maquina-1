@@ -42,6 +42,7 @@ data/
 datasets/
 cache/
 feature_cache_densenet121/
+modelos_knee/
 
 # macOS / IDE
 .DS_Store
