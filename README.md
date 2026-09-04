@@ -2,7 +2,7 @@
 
 Pipeline de clasificación **multietiqueta** de 12 hallazgos en resonancia magnética de rodilla (DICOM). Cada estudio se representa en los planos Sagittal, Coronal y Axial mediante bloques 2.5D, un extractor **DenseNet121** preentrenado en ImageNet (congelado) y dos módulos de atención (`AttentionCortes`, `AttentionSeries`) que se concatenan en un vector de 3072 dimensiones y se proyectan a 12 logits.
 
-El desarrollo y el entrenamiento viven en `produccion/Knee.ipynb`. Este documento describe **solo lo que existe en el repositorio** (código, checkpoints y CSV de salida). El modelo **estima probabilidades**; no está validado clínicamente y no sustituye una lectura médica.
+.
 
 ---
 
